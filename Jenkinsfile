@@ -1,3 +1,6 @@
 @Library('jenkins-library@master') _
 
-deliveryPipeline()
+deliveryPipeline(
+    "type": "docker",
+    "env": "${env.BRANCH_NAME}"
+)
