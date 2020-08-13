@@ -2,5 +2,4 @@
 
 deliveryPipeline(
     "type": "docker",
-    "env": "${env.BRANCH_NAME}"
 )
